@@ -159,6 +159,7 @@
     justify-content: center;
     align-items: start;
     gap: 23px;
+    margin-bottom: 30px;
 }
 .vision-card{
     width: 393px;
@@ -181,7 +182,7 @@
     font-weight: 400;
     color: #0E0E0E;
     opacity: 0.7;
-    margin-bottom: 23px;
+    margin-bottom: 23px; 
 }
 .vision-btn{
     padding: 11px 19px;
@@ -190,11 +191,12 @@
     color: #fff;
     font-size: 15.36px;
     font-weight: 600;
-    margin-top: auto;
     cursor: pointer;
 }
 .vision-btn1{
     background-color: #5490F5;
+    margin-top: auto;
+    margin-bottom: 31px;
 }
 .vision-btn1:hover{
     background-color: #1956c1;
@@ -202,6 +204,7 @@
 .vision-btn2{
     background-color: #09A15C;
     margin-top: auto;
+    margin-bottom: 31px;
 }
 .vision-btn2:hover{
     background-color: #07633a;
@@ -209,8 +212,40 @@
 .vision-btn3{
     background-color: #FFC239;
     margin-top: auto;
+    margin-bottom: 31px;
 }
 .vision-btn3:hover{
     background-color: #906b13;
 }
-/* Vision style start */
+.vision-speech{
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border: 1px solid #0e0e0e3f;
+    border-radius: 10px;
+    padding: 30px 46px;
+}
+.speech-p{
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    margin-top: 10px;
+}
+.speech-h{
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.position{
+    color: #0E0E0E;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 0;
+}
+/* Vision style end */
