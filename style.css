@@ -5,6 +5,7 @@
 }
 .body{
     background-color: #F5F5F5;
+    
 }
 /* Nav Style Start*/
 .nav{
@@ -128,7 +129,7 @@
 /* Pillar style end */
 
 /* Vision style start */
-.vision{
+.vision, .news{
     margin: 10px 154px 0 154px;
     margin-bottom: 76px;
 }
@@ -249,3 +250,114 @@
     line-height: 0;
 }
 /* Vision style end */
+
+/* opinion style start */
+.opinion{
+    margin: 10px 154px 0 154px;
+    margin-bottom: 76px;
+}
+.opinion-card-box{
+    background-color: #fff;
+    padding: 31px;
+    border-radius: 15px;
+    border: 1px solid #0e0e0e42;
+}
+.card-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    background-color: #C6E4D6;
+    border: 1px solid #0e0e0e42;
+}
+.head-text{
+    font-size: 19px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+.tbl{
+    border: 1px solid #0e0e0e42;
+    height: 286px;
+    width: 1148px;
+    border-collapse: collapse;
+}
+.p{
+    border: 1px solid #0e0e0e42;
+    
+}
+.txt{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+    padding: 24px;
+    width: 1150px;
+}
+.select{
+    background-color: #C6E4D6;
+    border: 1px solid #0E0E0E;
+    padding: 10px 23px;
+    margin: 24px;
+    color: #0E0E0E;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* opinion style end */
+
+/* News Style Start */
+.news{
+    margin-bottom: 76px;
+}
+.news-card1, .news-card2, .news-card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+    background-color: #fff;
+    height: 386px;
+    border-radius: 15px;
+}
+.news-image{
+    border-radius: 10px;
+    height: 294px;
+    margin: 46px 31px 46px 46px;
+}
+.news-h{
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-size: 31px;
+    font-weight: 700;
+}
+.news-content{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 22px;
+    margin-right: 46px;
+}
+.news-description{
+    color: #0E0E0E;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+}
+.news-btn{
+    background-color: #006A50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    /* margin-top: 11px; */
+    cursor: pointer;
+}
+#card-2{
+    margin-left: 46px;
+    margin-right: 46px;
+}
+#news-2, #news-1{
+    margin-bottom: 22px;
+}
+/* News Style End */
+
